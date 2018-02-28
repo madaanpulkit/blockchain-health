@@ -16,4 +16,4 @@ services:
       - KAFKA_ZOOKEEPER_CONNECT=127.0.0.1
       - KAFKA_ADVERTISED_HOST_NAME=127.0.0.1
       - ZOOKEEPER_CONNECTION_TIMEOUT_MS=180000
-      - KAFKA_CREATE_TOPICS=ethereum_tx:1:1,ethereum_blocks:1:1
+      - KAFKA_CREATE_TOPICS=ethereum_account:1:1,ethereum_tx:1:1,ethereum_block:1:1
