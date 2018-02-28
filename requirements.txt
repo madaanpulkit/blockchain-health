@@ -1,0 +1,2 @@
+kafka-python>=1.4.1
+web3>=3.16.2
